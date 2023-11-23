@@ -1,0 +1,5 @@
+// Comando 1: simplemente corre el modelo y manda la salida al archivo por defecto gurobi.log
+gurobi_cl ejemplo.lp
+
+// Comando 2: corre el modelo y manda la salida al archvio especificado
+gurobi_cl ResultFile=ejemplo.sol ejemplo.lp

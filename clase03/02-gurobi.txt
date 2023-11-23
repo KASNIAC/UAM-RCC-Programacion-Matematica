@@ -1,0 +1,10 @@
+Por omisión, en gurobi las variables son no negativas. En la sección de bounds podemos señalar a una variable como libre para quitar ese efecto.
+(Checar ejemplo.lp, en donde usamos x free).
+
+Las variables pueden ser
+   binaries          (binarias)
+   generals          (enteras)
+   semi-continuous   (semicontinuas)
+Nota: una variable de la que no se indicó
+      su tipo es real y Gurobi no tiene una manera de indicar esto de manera explícita.
+

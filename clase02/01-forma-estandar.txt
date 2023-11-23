@@ -1,0 +1,10 @@
+maximizar
+	s
+subjecto to
+	s - 3 x1 - 7 x2 - 5 x3 - 8 x4 - 2 x5 = 0
+	s <= 16
+binaries
+	x1 x2 x3 x4 x5
+
+Nota: gurobi no acepta modelos que no esten en su forma estándar.
+Nota: desde un lenguaje de programación no existe este problema.

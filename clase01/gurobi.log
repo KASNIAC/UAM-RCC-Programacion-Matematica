@@ -1,0 +1,39 @@
+
+Gurobi 10.0.1 (linux64, gurobi_cl) logging started Mon Nov 20 16:09:43 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-11-13
+Using license file /home/kasniac/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file ejemplo.lp
+Reading time = 0.00 seconds
+: 2 rows, 8 columns, 16 nonzeros
+
+CPU model: AMD Opteron(tm) Processor 6174, instruction set [SSE2]
+Thread count: 24 physical cores, 24 logical processors, using up to 24 threads
+
+Optimize a model with 2 rows, 8 columns and 16 nonzeros
+Model fingerprint: 0x91cc4076
+Variable types: 0 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 7 columns, 13 nonzeros
+Variable types: 0 continuous, 7 integer (7 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
